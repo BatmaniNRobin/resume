@@ -4,9 +4,9 @@ function viewModel() {
   this.fullName = this.firstName + " " + this.lastName;
 
   this.phone = "";
-  this.email = "jonaylor89@gmail.com";
-  this.github = "https://github.com/jonaylor89";
-  this.website = "https://jonaylor.xyz";
+  this.email = "imalikmu@gmail.com";
+  this.github = "https://github.com/batmaninrobin";
+  this.website = "https://mani-malik.xyz";
 
   this.sections = [
     {
@@ -14,36 +14,28 @@ function viewModel() {
       subsections: [
         {
           list: [
-            "NodeJS",
+            "React",
             "HTML/CSS",
-            "Angular",
-            "Vue",
-            "Flutter",
+            // "Angular",
+            // "Vue",
+            // "Flutter",
             "SQL",
             "Bash",
-            "Ansible",
             "Java",
-            "Kafka",
-            "Spark",
-            "Hadoop",
-            ".NET",
+            // "Spark",
+            // "Hadoop",
             "Python",
             "Android",
-            "iOS",
-            "Swift",
-            "SwiftUI",
+            // "iOS",
+            // "Swift",
+            // "SwiftUI",
             "C/C++",
-            "Rust",
-            "Go",
+            // "Go",
             "Docker",
             "Kubernetes",
-            "GCP",
+            // "GCP",
             "AWS",
-            "Terraform",
-            "Ethereum",
-            "Solidity",
-            "Solana",
-            "AI/ML/DS",
+            // "Terraform",
           ]
         }
       ]
@@ -55,7 +47,7 @@ function viewModel() {
           header: [
             "Richmond, VA",
             "Master of Science",
-            "Fall 2020 - Spring 2021"
+            "Spring 2020 - Spring 2022"
           ],
           bullets: [
             "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
@@ -65,7 +57,7 @@ function viewModel() {
           header: [
             "Richmond, VA",
             "Bachelor of Science",
-            "Fall 2017 - Spring 2020"
+            "Fall 2016 - Spring 2020"
           ],
           bullets: [
             "Bachelor in Computer Science degree from Virginia Commonwealth University",
@@ -76,33 +68,33 @@ function viewModel() {
     {
       header: ["Certifications"],
       subsections: [
-        {
-          decorators: {
-            url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
-          },
-          header: [
-            "AWS Certified Machine Learning - Specialty",
-            "November 2021 - November 2024"
-          ],
-        },
+        // {
+        //   decorators: {
+        //     url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
+        //   },
+        //   header: [
+        //     "AWS Certified Machine Learning - Specialty",
+        //     "November 2021 - November 2024"
+        //   ],
+        // },
         {
           decorators: {
             url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
           },
           header: [
             "AWS Solutions Architect - Associate",
-            "July 2020 - July 2023"
+            "July 2020 - July 2023" // FIXME: change date
           ],
         },
-        {
-          decorators: {
-            url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
-          },
-          header: [
-            "Google Associate Cloud Engineer",
-            "July 2020 - July 2022"
-          ],
-        }
+        // {
+        //   decorators: {
+        //     url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
+        //   },
+        //   header: [
+        //     "Google Associate Cloud Engineer",
+        //     "July 2020 - July 2022"
+        //   ],
+        // }
       ]
     },
     {
@@ -131,58 +123,6 @@ function viewModel() {
           ]
         },
         {
-          noPrint: true,
-          decorators: {
-            icon: "github",
-            url: "https://github.com/jonaylor89/ZeroPWNd"
-          },
-          header: ["ZeroPWNd", "Fall 2018"],
-          bullets: [
-            "Won <a href='https://devpost.com/software/zeropwnd'>first place</a> for Willow Tree's challenge at RamHacks 2018",
-            "Uses open source API and public data to check if a URL is a phishing link (Cyber Security)"
-          ]
-        },
-        {
-          noPrint: true,
-          decorators: {
-            icon: "github",
-            url: "https://github.com/hudginspj/myo-mesh-tracking"
-          },
-          header: ["Myo Secure Tracking", "Spring 2018"],
-          bullets: [
-            "Won <a href='https://devpost.com/software/myo-secure-tracking'>best networking app</a> at HackVT 2018",
-            "Uses bluetooth communication and the Myo armband technology for securely monitoring visitors"
-          ]
-        },
-        {
-          decorators: {
-            icon: "github",
-            url: "https://github.com/jonaylor89/MonkeyInterpreter"
-          },
-          header: ["MonkeyLang Interpreter", "Winter 2017"],
-          bullets: [
-            "Programming Language Interpreter written in Golang",
-            [
-              "Implements a bytecode compiler and virtual machine",
-              "Includes first class functions and closures",
-              "Unit tests written using Golang's testing library"
-            ]
-          ]
-        },
-        {
-          decorators: {
-            icon: "github"
-          },
-          header: ["Ditto", "Spring 2019"],
-          bullets: [
-            "Submission to Moog's annual hackathon at Georgia Tech",
-            [
-              "Latin American drum inspired instrument with the ability to record and playback drum beats",
-              "Used Arduino Mega and Moog Werkstatt to record, store, and playback sounds"
-            ]
-          ]
-        },
-        {
           header: ["Collegiate Cyber Defense Competition", "Spring 2019"],
           bullets: [
             "Placed 2nd at the Mid-Atlantic's Collegiate Cyber Defense Competition",
@@ -191,109 +131,19 @@ function viewModel() {
             ]
           ]
         },
-        {
-          header: ["Collegiate Penetration Testing Competition", "Fall 2019"],
-          bullets: [
-            "Placed 3rd at the the Northeasten Regional Collegiate Penetration Testing Competition",
-            [
-              "Offensive security competition used as a simulation for an actual corporate penetration test",
-            ]
-          ]
-        },
       ]
     },
     {
       header: ["Employment"],
       subsections: [
-        {
-          header: ["San Fransisco, CA", "Audius", "Spring 2022 - Present"],
-          bullets: [
-            "Software Engineer",
-            "Develop on and manage GCP + AWS infrastructure",
-            "Build atop a decentralized and distributed network",
-            ["Nodejs, Python, Rust, AWS, GCP, solana, ehtereum"],
-          ]
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2020 - Spring 2022"],
-          bullets: [
-            "Associate Software Engineer",
-            "Develop on and manage AWS infrastructure for real time payments",
-            "Modernization work for Architecture, APIs, and design processes",
-            ["MQTT, Kafka, Angular, Nodejs, Java Spring Boot, Postgres, Jenkins, AWS"],
-          ]
-        },
-        {
-          header: ["Richmond, VA", "Capital One", "Summer 2019 - Spring 2020"],
-          bullets: [
-            "Software Studio Developer",
-            "Team lead for a team of contractors",
-            "Strict test driven development",
-            "GSuite management",
-            ["Vue, Angular, Nodejs, Spring Boot, Flask, GSuite"]
-          ]
-        },
-        {
-          header: ["Richmond, VA", "In The Loop", "Spring 2021 - Spring 2022"],
-          bullets: [
-            "Founder of In The Loop",
-            "https://intheloopstudio.com",
-            "Developed music platform for artists and producers to collaborate",
-            ["Vuejs, Firebase, GCP, Flutter, Android, iOS, mobile"]
-          ]
-        },
-        {
-          header: [
-            "Richmond, VA",
-            "Afton Chemical",
-            "Winter 2018 - Summer 2019"
-          ],
-          bullets: [
-            "Software Development",
-            "Worked on C# and Angular web apps for data scientists and chemical engineers",
-            ["C#, Angular, Office 365"]
-          ]
-        },
-        {
-          noPrint: true,
-          header: [
-            "Richmond, VA",
-            "VCU Labs & Classrooms Computing",
-            "Summer 2018 - Summer 2019"
-          ],
-          bullets: [
-            "Technician for campus computers",
-            "Developed python projects and bash scripts for VCU's support technicians",
-            [
-              "Embedded system and web server for the campus laptop kiosks",
-              "Desktop application to generate reports for classroom scheduling "
-            ]
-          ]
-        },
-        {
-          noPrint: true,
-          header: [
-            "Richmond, VA",
-            "Research Assistant",
-            "Fall 2018 - Spring 2019"
-          ],
-          bullets: [
-            "Maintain Intellij plugin StackInTheFlow",
-            [
-              "Brings stack-overflow into the Intellij IDEA",
-              "Uses machine learning to assist in auto generating queries"
-            ],
-            "Mining Software Repository (MSR) Challenge",
-            ["~Discover trends in a dataset from stack-overflow"]
-          ]
-        }
+      
       ]
     },
     {
       header: ["Leadership"],
       subsections: [
         {
-          header: ["President of RamDev", "Summer 2018 - Summer 2020"],
+          header: ["Vice President of RamDev", "Summer 2018 - Summer 2020"], // FIXME: DATES
           bullets: [
             "Organize weekly tech-talks by companies and students",
             "Invite corporate developers to speak and bring internships for students",
@@ -312,7 +162,7 @@ function viewModel() {
         },
         {
           header: [
-            "President of Student Advisory Board",
+            "Member of Student Advisory Board",
             "Summer 2020 - Present"
           ],
           bullets: [
@@ -321,7 +171,7 @@ function viewModel() {
           ]
         },
         {
-          header: ["Vice President of ACM Club", "Summer 2018 - Fall 2019"],
+          header: ["Vice President of Linux Users Group Club", "Summer 2018 - Fall 2019"], // FIXME dates, bullets
           bullets: [
             "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
           ]
@@ -332,13 +182,6 @@ function viewModel() {
             "Manage a student developer club including monthly workshops on Google Cloud"
           ]
         },
-        {
-          header: ["Hyperloop Software Lead", "Fall 2017 - Fall 2018"],
-          bullets: [
-            "Design and implement software for the Hyperloop team at VCU competing in SpaceX's annual competition",
-            "Handpicked by SpaceX as one of the top 20 teams internationally"
-          ]
-        }
       ]
     },
   ];
