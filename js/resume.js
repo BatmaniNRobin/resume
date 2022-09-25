@@ -1,6 +1,6 @@
 function viewModel() {
-  this.firstName = "John";
-  this.lastName = "Naylor";
+  this.firstName = "Mohammad";
+  this.lastName = "Malik";
   this.fullName = this.firstName + " " + this.lastName;
 
   this.phone = "";
@@ -33,6 +33,8 @@ function viewModel() {
             // "Go",
             "Docker",
             "Kubernetes",
+            "Helm",
+            "CUDA",
             // "GCP",
             "AWS",
             // "Terraform",
@@ -68,38 +70,39 @@ function viewModel() {
     {
       header: ["Certifications"],
       subsections: [
-        // {
-        //   decorators: {
-        //     url: "https://www.credly.com/badges/0be60fbb-d187-4ab0-97f0-0076c78ddaf5"
-        //   },
-        //   header: [
-        //     "AWS Certified Machine Learning - Specialty",
-        //     "November 2021 - November 2024"
-        //   ],
-        // },
         {
           decorators: {
-            url: "https://www.youracclaim.com/badges/a4587f99-1dd4-4481-b9d5-cf2c68d5cb59/public_url"
+            url: "https://www.credly.com/badges/cc45d60f-5843-46e6-8521-fb548e07ff42"
           },
           header: [
             "AWS Solutions Architect - Associate",
-            "July 2020 - July 2023" // FIXME: change date
+            "January 2021 - January 2024"
           ],
         },
-        // {
-        //   decorators: {
-        //     url: "https://www.credential.net/b59fb0f6-fd21-409a-afc6-843ca8495924"
-        //   },
-        //   header: [
-        //     "Google Associate Cloud Engineer",
-        //     "July 2020 - July 2022"
-        //   ],
-        // }
+        {
+          decorators: {
+            url: "https://courses.edx.org/certificates/243487c8a7cf4b3aa4737f0c9826ff9c"
+          },
+          header: [
+            "Databases: Advanced Topics in SQL",
+            "July 2020"
+          ],
+        }
       ]
     },
     {
       header: ["Prominent Projects"],
       subsections: [
+        {
+          decorators: {
+            icon: "gitlab",
+            url: " https://www.youtube.com/watch?v=7Pm8kUGsIBo&list=PLFGfElNsQthbvvLUpPd5uNXbLb6B_6D2w&index=6&t=1s"
+          },
+          header: ["Gitlab Commit DevOps Presenter", "2021"],
+          bullets: [
+            "Gave a presentation regarding the process and challenges of a migration of Gitlab from an on-prem state to within a Kubernetes cluster"
+          ]
+        },
         {
           decorators: {
             icon: "github",
@@ -136,16 +139,26 @@ function viewModel() {
     {
       header: ["Employment"],
       subsections: [
-      
+        {
+          header: ["Richmond, VA", "Genworth Financial", "Associate Software Engineer", "July 2020 - Present"],
+          bullets: [
+            "Software Engineer",
+            "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
+            "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
+            "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
+            "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
+            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"]
+          ]
+        }
       ]
     },
     {
       header: ["Leadership"],
       subsections: [
         {
-          header: ["Vice President of RamDev", "Summer 2018 - Summer 2020"], // FIXME: DATES
+          header: ["Vice President of RamDev", "Fall 2018 - Spring 2020"],
           bullets: [
-            "Organize weekly tech-talks by companies and students",
+            "Organize weekly tech-talks by companies and students discussing real world applications",
             "Invite corporate developers to speak and bring internships for students",
             "Organize Hackathon trips"
           ]
@@ -171,15 +184,28 @@ function viewModel() {
           ]
         },
         {
-          header: ["Vice President of Linux Users Group Club", "Summer 2018 - Fall 2019"], // FIXME dates, bullets
+          header: ["Vice President of Linux Users Group Club", "Fall 2018 - Spring 2020"], 
           bullets: [
-            "Organize weekly meetings to prepare for the ACM International Collegiate Programming Contest"
+            "Organize weekly meetings to discuss and present various topics within the Linux community",
+            "contribute to the development and discussion of open-source Linux projects"
           ]
         },
         {
-          header: ["Google Student Developer Lead", "Fall 2020 - Spring 2021"],
+          header: ["Google Student Developer Lead", "Fall 2019 - Spring 2020"],
           bullets: [
             "Manage a student developer club including monthly workshops on Google Cloud"
+          ]
+        },
+        {
+          header: ["FormulaSAE", "Fall 2018 - Spring 2020"],
+          bullets: [
+            "Design and build a formula race car from scratch to compete in annual competition"
+          ]
+        },
+        {
+          header: ["American Sign Language(ASL) Club", "Fall 2019 - Spring 2022"],
+          bullets: [
+            "Learn American Sign Language and Deaf culture in an open hands-on (pun intended) environment"
           ]
         },
       ]
