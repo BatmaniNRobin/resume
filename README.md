@@ -1,4 +1,6 @@
 # Resume
+gh-pages resume static page
+
 I got sick of fixing the formatting on my resume every time I needed to edit a section.
 
 You can see the result [here](http://batmaninrobin.github.io/resume/).
