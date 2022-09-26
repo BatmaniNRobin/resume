@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "gh-pages resume static page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BatmaniNRobin/resume.git"
+  },
+  "author": "Mohammad Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BatmaniNRobin/resume/issues"
+  },
+  "homepage": "https://github.com/BatmaniNRobin/resume#readme"
+}
