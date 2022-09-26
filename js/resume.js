@@ -147,7 +147,12 @@ function viewModel() {
             "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
             "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"]
+            { 
+              list: 
+              [
+                "Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"
+              ]
+            }
           ]
         }
       ]
