@@ -140,7 +140,12 @@ function viewModel() {
       header: ["Employment"],
       subsections: [
         {
-          header: ["Richmond, VA", "Genworth Financial", "Associate Software Engineer", "July 2020 - Present"],
+          header: [
+            "Richmond, VA",
+            "Genworth Financial",
+            "Associate Software Engineer",
+            "July 2020 - Present"
+          ],
           bullets: [
             "Software Engineer",
             "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
@@ -149,7 +154,7 @@ function viewModel() {
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
             ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
           ]
-        }
+        },
       ]
     },
     {
