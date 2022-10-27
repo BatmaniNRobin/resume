@@ -47,7 +47,7 @@ function viewModel() {
       subsections: [
         {
           header: [
-            "Richmond, VA",
+            // "Richmond, VA",
             "Genworth Financial",
             "Associate Software Engineer",
             "July 2020 - Present"
@@ -84,6 +84,8 @@ function viewModel() {
           ],
           bullets: [
             "Bachelor in Computer Science degree from Virginia Commonwealth University",
+            "Majored in Computer Science with a Concentration in Cybersecurity",
+            "Minored in Mathematics",
           ]
         }
       ]
