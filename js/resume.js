@@ -149,6 +149,9 @@ function viewModel() {
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
             ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
           ]
+        },
+        {
+          
         }
       ]
     },
