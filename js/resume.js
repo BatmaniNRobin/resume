@@ -42,6 +42,11 @@ function viewModel() {
             "Azure",
             "Airflow",
             "Jenkins",
+            "MacOS",
+            "Linux",
+            "Windows",
+            "Zsh",
+            ""
           ]
         }
       ]
