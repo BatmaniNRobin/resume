@@ -48,17 +48,17 @@ function viewModel() {
         {
           header: [
             // "Richmond, VA",
-            "Genworth Financial",
             "Associate Software Engineer",
+            "Genworth Financial",
             "July 2020 - Present"
           ],
           bullets: [
-            "Software Engineer",
             "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
             "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
-            "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
+            "setup dynamic storage provisioning on NFS volumes, setup various Airflows DAGs",
+            "setup Microsoft ADCS Issuer to work with Cert-Manager through outdated and unmaintained open-source 3rd party tool",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
+            [["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"]],
           ]
         },
       ]
