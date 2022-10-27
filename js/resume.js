@@ -55,16 +55,16 @@ function viewModel() {
             "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
           ]
         },
-        {
-          header: [
-            "Richmond, VA",
-            "Bachelor of Science",
-            "Fall 2016 - Spring 2020"
-          ],
-          bullets: [
-            "Bachelor in Computer Science degree from Virginia Commonwealth University",
-          ]
-        }
+        // {
+        //   header: [
+        //     "Richmond, VA",
+        //     "Bachelor of Science",
+        //     "Fall 2016 - Spring 2020"
+        //   ],
+        //   bullets: [
+        //     "Bachelor in Computer Science degree from Virginia Commonwealth University",
+        //   ]
+        // }
       ]
     },
     {
@@ -147,11 +147,8 @@ function viewModel() {
             "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
             "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-          ],
-          list: ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
-        },
-        {
-          
+            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
+          ]
         }
       ]
     },
