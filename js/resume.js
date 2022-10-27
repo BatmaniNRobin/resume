@@ -39,7 +39,9 @@ function viewModel() {
             // "GCP",
             "AWS",
             "Terraform",
-            "Azure"
+            "Azure",
+            "Airflow",
+            "Jenkins",
           ]
         }
       ]
@@ -60,7 +62,6 @@ function viewModel() {
             "setup dynamic storage provisioning on NFS volumes, setup various Airflows DAGs",
             "setup Microsoft ADCS Issuer to work with Cert-Manager through outdated and unmaintained open-source 3rd party tool",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            ["Airflow", "Gitlab", "Jenkins"],
           ]
         },
       ]
