@@ -48,8 +48,8 @@ function viewModel() {
         {
           header: [
             // "Richmond, VA",
-            "Associate Software Engineer",
             "Genworth Financial",
+            "Associate Software Engineer",
             "July 2020 - Present"
           ],
           bullets: [
@@ -58,7 +58,7 @@ function viewModel() {
             "setup dynamic storage provisioning on NFS volumes, setup various Airflows DAGs",
             "setup Microsoft ADCS Issuer to work with Cert-Manager through outdated and unmaintained open-source 3rd party tool",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            [["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"]],
+            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
           ]
         },
       ]
