@@ -43,6 +43,27 @@ function viewModel() {
       ]
     },
     {
+      header: ["Employment"],
+      subsections: [
+        {
+          header: [
+            "Richmond, VA",
+            "Genworth Financial",
+            "Associate Software Engineer",
+            "July 2020 - Present"
+          ],
+          bullets: [
+            "Software Engineer",
+            "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
+            "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
+            "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
+            "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
+            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
+          ]
+        },
+      ]
+    },
+    {
       header: ["Education"],
       subsections: [
         {
@@ -55,16 +76,16 @@ function viewModel() {
             "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
           ]
         },
-        // {
-        //   header: [
-        //     "Richmond, VA",
-        //     "Bachelor of Science",
-        //     "Fall 2016 - Spring 2020"
-        //   ],
-        //   bullets: [
-        //     "Bachelor in Computer Science degree from Virginia Commonwealth University",
-        //   ]
-        // }
+        {
+          header: [
+            "Richmond, VA",
+            "Bachelor of Science",
+            "Fall 2016 - Spring 2020"
+          ],
+          bullets: [
+            "Bachelor in Computer Science degree from Virginia Commonwealth University",
+          ]
+        }
       ]
     },
     {
@@ -132,27 +153,6 @@ function viewModel() {
             [
               "Cyber defense competition used as a simulation for actual cyber defense in a business setting",
             ]
-          ]
-        },
-      ]
-    },
-    {
-      header: ["Employment"],
-      subsections: [
-        {
-          header: [
-            "Richmond, VA",
-            "Genworth Financial",
-            "Associate Software Engineer",
-            "July 2020 - Present"
-          ],
-          bullets: [
-            "Software Engineer",
-            "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
-            "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
-            "setup dynamic storage provisioning on NFS volumes, setup Microsoft ADCS Issuer to work with Cert Manager through open-source 3rd party application, setup various Airflows DAGs",
-            "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
           ]
         },
       ]
