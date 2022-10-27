@@ -16,7 +16,8 @@ function viewModel() {
           list: [
             "React",
             "HTML/CSS",
-            // "Angular",
+            "Angular",
+            "Vercel",
             // "Vue",
             // "Flutter",
             "SQL",
@@ -37,7 +38,8 @@ function viewModel() {
             "CUDA",
             // "GCP",
             "AWS",
-            // "Terraform",
+            "Terraform",
+            "Azure"
           ]
         }
       ]
@@ -58,7 +60,7 @@ function viewModel() {
             "setup dynamic storage provisioning on NFS volumes, setup various Airflows DAGs",
             "setup Microsoft ADCS Issuer to work with Cert-Manager through outdated and unmaintained open-source 3rd party tool",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
-            ["Java", "Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
+            ["Python", "AngularJS 1.0", "Bash", "Helm", "K8S/Kubernetes", "Python", "Airflow", "Gitlab", "SQL", "Javascript(JS)", "Jenkins"],
           ]
         },
       ]
@@ -84,8 +86,8 @@ function viewModel() {
           ],
           bullets: [
             "Bachelor in Computer Science degree from Virginia Commonwealth University",
-            "Majored in Computer Science with a Concentration in Cybersecurity",
-            "Minored in Mathematics",
+            "Major in Computer Science with a Concentration in Cybersecurity",
+            "Minor in Mathematics",
           ]
         }
       ]
