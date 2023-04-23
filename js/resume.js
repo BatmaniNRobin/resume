@@ -87,22 +87,23 @@ function viewModel() {
       subsections: [
         {
           header: [
-            "Richmond, VA",
+            // "Richmond, VA",
             "Master of Science",
+            " Virginia Commonwealth University",
             "Spring 2020 - Spring 2022"
           ],
           bullets: [
-            "Master of Computer Science degree from Virginia Commonwealth University (Data Science+Machine Learning)",
+            "Major in Data Science and Machine Learning",
           ]
         },
         {
           header: [
-            "Richmond, VA",
+            // "Richmond, VA",
             "Bachelor of Science",
+            "Virginia Commonwealth University",
             "Fall 2016 - Spring 2020"
           ],
           bullets: [
-            "Bachelor in Computer Science degree from Virginia Commonwealth University",
             "Major in Computer Science with a Concentration in Cybersecurity",
             "Minor in Mathematics",
           ]
