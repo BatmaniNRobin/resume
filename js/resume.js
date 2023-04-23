@@ -63,7 +63,7 @@ function viewModel() {
       subsections: [
         {
           header: [
-            "Richmond, VA (Remote)",
+            // "Richmond, VA (Remote)",
             "Genworth",
             "Platform Engineer",
             "July 2020 - Present"
