@@ -36,7 +36,9 @@ function viewModel() {
             "Kubernetes",
             "Helm",
             "CUDA",
-            // "GCP",
+            "GCP",
+            "Grafana",
+            "Prometheus",
             "AWS",
             "Terraform",
             "Azure",
@@ -46,6 +48,11 @@ function viewModel() {
             "Linux",
             "Windows",
             "Zsh",
+            "ServiceNow",
+            "Jira",
+            "Artificial Intelligence/AI",
+            "Machine Learning/ML",
+            "Deep Learning/DL",
             ""
           ]
         }
@@ -56,17 +63,21 @@ function viewModel() {
       subsections: [
         {
           header: [
-            // "Richmond, VA",
-            "Genworth Financial",
-            "Associate Software Engineer",
+            "Richmond, VA (Remote)",
+            "Genworth",
+            "Platform Engineer",
             "July 2020 - Present"
           ],
           bullets: [
-            "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, and Oracle Database with the utilization of Python and Bash scripts",
             "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
             "setup dynamic storage provisioning on NFS volumes, setup various Airflows DAGs",
-            "setup Microsoft ADCS Issuer to work with Cert-Manager through outdated and unmaintained open-source 3rd party tool",
+            "Setup Microsoft ADCS Issuer to work with Cert-Manager through a non-maintained open-source 3rd-party application to enable the first automated certificate generation and distribution, reducing human overhead and manual downtime during rotation of certificates",
             "Enhancements done to front facing website using Java (Spring), and AngularJS 1.0",
+            "Developed Automated CI/CD deployment pipelines using Gitlab and integration with CyberArk, ServiceNow, Informatica/Powercenter, Oracle, and Greenplum DB using Python and Bash scripts speeding up deployments by 180% and reducing human merge errors by 85%",
+            "Migration of on-prem single node Gitlab install to a distributed Kubernetes Cluster using Helm to employ disaster recovery methods, and increase both fault tolerance, scalability by a scale of 3",
+            "Built, deployed, and administered various rancher Kubernetes clusters with dynamic storage provisioning on NFS volumes, cert-manager, grafana, and prometheus, alongside Nginx and traefik with ssl termination via F5",
+            "Mentored and led 2 interns and 1 Engineer in current processes and administration techniques of systems, and deploy Metaflow to Airflow with K8s backend",
+            "Added system and application performance metrics using OpenTelemetry, Prometheus, including designs and visualizations in Grafana"
           ]
         },
       ]
@@ -101,6 +112,15 @@ function viewModel() {
     {
       header: ["Certifications"],
       subsections: [
+        {
+          decorators: {
+            url: "https://www.credly.com/badges/da70215b-03fe-4a90-9318-deea341bfa41/public_url"
+          },
+          header: [
+            "HashiCorp Terraform Associates (003)",
+            "April 2023 - April 2025"
+          ],
+        },
         {
           decorators: {
             url: "https://www.credly.com/badges/cc45d60f-5843-46e6-8521-fb548e07ff42"
@@ -191,7 +211,7 @@ function viewModel() {
         {
           header: [
             "Member of Student Advisory Board",
-            "Summer 2020 - Present"
+            "Summer 2020 - Spring 2022"
           ],
           bullets: [
             "~Help the department choose new faculty members",
