@@ -63,10 +63,23 @@ function viewModel() {
       subsections: [
         {
           header: [
+            "Booz Allen Hamilton",
+            "Machine Learning Operations Engineer",
+            "July 2023 - Present"
+          ],
+          bullets: [
+            "Successfully integrated large language models (LLMs) into an ML pipeline tool, enhancing generative question answering and NLP task capabilities and enabling more accurate and context-aware text analysis for various applications.",
+            "Automated the MLOps testing portfolio, resulting in a remarkable reduction in testing time from 2 days to just a few hours, improving efficiency and accelerating the software development lifecycle.",
+            "Integrated and deployed the Adversarial Robustness Toolbox (ART) functionality seamlessly into the machine learning pipeline, enhancing model resilience against adversarial attacks and ensuring more robust AI solutions.",
+            "Prototyped abstracted tasks to configure an ML pipeline tool for retrieving Large Language Models (LLMs) from Amazon S3, leveraging Hugging Face models, and establishing seamless loading and serving capabilities, without need for custom Docker images"
+          ]
+        },
+        {
+          header: [
             // "Richmond, VA (Remote)",
             "Genworth",
             "Platform Engineer",
-            "July 2020 - Present"
+            "July 2020 - July 2023"
           ],
           bullets: [
             "Migration of on-prem Gitlab omnibus install to a Kubernetes Cluster deployment",
