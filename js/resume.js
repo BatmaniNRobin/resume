@@ -3,7 +3,7 @@ function viewModel() {
   this.lastName = "Malik";
   this.fullName = this.firstName + " " + this.lastName;
 
-  // this.phone = "";
+  this.phone = "";
   this.email = "imalikmu@gmail.com";
   this.github = "https://github.com/batmaninrobin";
   this.website = "https://mani-malik.xyz";
