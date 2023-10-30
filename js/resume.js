@@ -128,6 +128,15 @@ function viewModel() {
       subsections: [
         {
           decorators: {
+            url: "https://www.credly.com/badges/7a6ac371-a4f1-4b8f-ae1a-b704343d1051/public_url"
+          },
+          header: [
+            "Certified Kubernetes Administrator (CKA)",
+            "October 2023 - October 2026"
+          ],
+        },
+        {
+          decorators: {
             url: "https://www.credly.com/badges/da70215b-03fe-4a90-9318-deea341bfa41/public_url"
           },
           header: [
@@ -137,7 +146,7 @@ function viewModel() {
         },
         {
           decorators: {
-            url: "https://www.credly.com/badges/cc45d60f-5843-46e6-8521-fb548e07ff42"
+            url: "https://www.credly.com/badges/cc45d60f-5843-46e6-8521-fb548e07ff42/public_url"
           },
           header: [
             "AWS Solutions Architect - Associate",
