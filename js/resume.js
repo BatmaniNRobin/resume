@@ -7,6 +7,7 @@ function viewModel() {
   this.email = "imalikmu@gmail.com";
   this.github = "https://github.com/batmaninrobin";
   this.website = "https://mani-malik.xyz";
+  this.clearance = "Secret";
 
   this.sections = [
     {
@@ -14,24 +15,16 @@ function viewModel() {
       subsections: [
         {
           list: [
-            "React",
+            // "React",
             "HTML/CSS",
-            "Angular",
+            // "Angular",
             "Vercel",
-            // "Vue",
-            // "Flutter",
-            "SQL",
+            // "SQL",
             "Bash",
-            "Java",
-            // "Spark",
-            // "Hadoop",
+            // "Java",
             "Python",
-            "Android",
-            // "iOS",
-            // "Swift",
-            // "SwiftUI",
-            "C/C++",
-            // "Go",
+            // "Android",
+            // "C/C++",
             "Docker",
             "Kubernetes",
             "Helm",
@@ -53,7 +46,9 @@ function viewModel() {
             "Artificial Intelligence/AI",
             "Machine Learning/ML",
             "Deep Learning/DL",
-            ""
+            "langchain",
+            "NLP",
+            "LLMs"
           ]
         }
       ]
@@ -67,11 +62,19 @@ function viewModel() {
             "Machine Learning Operations Engineer",
             "July 2023 - Present"
           ],
-          bullets: [
-            "Successfully integrated large language models (LLMs) into an ML pipeline tool, enhancing generative question answering and NLP task capabilities and enabling more accurate and context-aware text analysis for various applications.",
-            "Automated the MLOps testing portfolio, resulting in a remarkable reduction in testing time from 2 days to just a few hours, improving efficiency and accelerating the software development lifecycle.",
-            "Integrated and deployed the Adversarial Robustness Toolbox (ART) functionality seamlessly into the machine learning pipeline, enhancing model resilience against adversarial attacks and ensuring more robust AI solutions.",
-            "Prototyped abstracted tasks to configure an ML pipeline tool for retrieving Large Language Models (LLMs) from Amazon S3, leveraging Hugging Face models, and establishing seamless loading and serving capabilities, without need for custom Docker images"
+          bullets: ["Engineered secure, DevSecOps-driven sandbox environments to support advanced machine learning operations, enhancing development agility and compliance.",
+            "Developed and implemented scalable network solutions, utilizing AWS Route 53 for seamless routing to EKS clusters and optimizing application accessibility.",
+            "Oversaw deployment and workload management for Kubernetes clusters across diverse environments, ensuring adherence to complex security and compliance standards.",
+            "Architected design solutions for cloud deployments of AWS infrastructure  using Terraform and ansible playbooks",
+            "Implemented and managed CI/CD pipelines using Gitlab, Jenkins, and ArgoCD, automating deployment processes and enhancing operational efficiency.",
+            "Automated deployment workflows and management tasks, simplifying processes for end users and improving operational efficiency by X%.",
+            "Integrated large language models (LLMs) into an ML pipeline tool, enhancing generative question answering and NLP task capabilities and enabling more accurate and context-aware text analysis for various applications.",
+            "Automated MLOps testing portfolio, resulting in a remarkable reduction in testing time from 2 days to just a few hours, improving efficiency and accelerating the software development lifecycle.",
+            "Integrated and deployed Adversarial Robustness Toolbox (ART) functionality seamlessly into machine learning pipelines, enhancing model resilience against adversarial attacks and ensuring more robust AI solutions.",
+            "Prototyped abstracted tasks to configure an ML pipeline tool for retrieving Large Language Models (LLMs) from Amazon S3, leveraging Hugging Face models, and establishing seamless loading and serving capabilities, without need for custom Docker images",
+            "Implemented a prototype using LangChain and Hugging Face models, coupled with Redis as a vector store, to develop an efficient solution for similarity search",
+            "Transitioned prototype applications to production-ready AI/ML deployments, ensuring seamless and efficient inference capabilities",
+            "Enhanced platform's development kit by enabling integrated testing and streamlining the development cycle for increased efficiency",
           ]
         },
         {
