@@ -5,9 +5,9 @@ function viewModel() {
 
   this.phone = "";
   this.email = "imalikmu@gmail.com";
-  this.github = "https://github.com/batmaninrobin";
-  this.website = "https://mani-malik.xyz";
-  this.clearance = "Secret";
+  this.github = "github.com/batmaninrobin";
+  this.website = "mani-malik.xyz";
+  // this.clearance = "Secret";
 
   this.sections = [
     {
@@ -15,16 +15,8 @@ function viewModel() {
       subsections: [
         {
           list: [
-            // "React",
-            "HTML/CSS",
-            // "Angular",
-            "Vercel",
-            // "SQL",
             "Bash",
-            // "Java",
             "Python",
-            // "Android",
-            // "C/C++",
             "Docker",
             "Kubernetes",
             "Helm",
@@ -48,7 +40,15 @@ function viewModel() {
             "Deep Learning/DL",
             "langchain",
             "NLP",
-            "LLMs"
+            "LLMs",
+            // "React",
+            "HTML/CSS",
+            // "Angular",
+            "Vercel",
+            // "SQL",
+            // "Java",
+            // "Android",
+            // "C/C++",
           ]
         }
       ]
@@ -62,12 +62,13 @@ function viewModel() {
             "Machine Learning Operations Engineer",
             "July 2023 - Present"
           ],
-          bullets: ["Engineered secure, DevSecOps-driven sandbox environments to support advanced machine learning operations, enhancing development agility and compliance.",
+          bullets: [
+            "Engineered secure, DevSecOps-driven sandbox environments to support advanced machine learning operations, enhancing development agility and compliance.",
             "Developed and implemented scalable network solutions, utilizing AWS Route 53 for seamless routing to EKS clusters and optimizing application accessibility.",
-            "Oversaw deployment and workload management for Kubernetes clusters across diverse environments, ensuring adherence to complex security and compliance standards.",
-            "Architected design solutions for cloud deployments of AWS infrastructure  using Terraform and ansible playbooks",
+            "Oversaw deployment and workload management for Kubernetes clusters across various environments, ensuring adherence to complex security and compliance standards.",
+            "Architected design solutions for cloud deployments of AWS infrastructure using Terraform and ansible playbooks",
             "Implemented and managed CI/CD pipelines using Gitlab, Jenkins, and ArgoCD, automating deployment processes and enhancing operational efficiency.",
-            "Automated deployment workflows and management tasks, simplifying processes for end users and improving operational efficiency by X%.",
+            "Automated deployment workflows and management tasks, simplifying processes and improving operational efficiency.",
             "Integrated large language models (LLMs) into an ML pipeline tool, enhancing generative question answering and NLP task capabilities and enabling more accurate and context-aware text analysis for various applications.",
             "Automated MLOps testing portfolio, resulting in a remarkable reduction in testing time from 2 days to just a few hours, improving efficiency and accelerating the software development lifecycle.",
             "Integrated and deployed Adversarial Robustness Toolbox (ART) functionality seamlessly into machine learning pipelines, enhancing model resilience against adversarial attacks and ensuring more robust AI solutions.",
