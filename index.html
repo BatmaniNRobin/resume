@@ -23,7 +23,7 @@
                     <tr>
                         <td data-bind="html: phone"></td>
                         <td rowspan="2" class="text-xs-center">
-                            <h2 data-bind="html: fullName" class="text-uppercase text-letter-spacing-1px"></h2>
+                            <h2 data-bind="html: fullName" class="text-capitalize text-letter-spacing-1px"></h2>
                         </td>
                         <td class="text-xs-right">
                             <a data-bind="html: getIcon('github','black','24px') + github, attr: {href: github}"></a>
@@ -32,6 +32,9 @@
                     <tr>
                         <td>
                             <a data-bind="html: email, attr: {href: 'email:' + email}"></a>
+                        </td>
+                        <td class="text-xs-center">
+                            <h2 data-bind="html: securityClearance"></h2>
                         </td>
                         <td class="text-xs-right">
                             <a data-bind="html: website, attr: {href: website}"></a>
