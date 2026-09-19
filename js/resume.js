@@ -7,7 +7,7 @@ function viewModel() {
   this.email = "imalikmu@gmail.com";
   this.github = "github.com/batmaninrobin";
   this.website = "mani-malik.xyz";
-  this.clearance = "Active Top Secret/SCI Clearance";
+  // this.clearance = "Active Top Secret/SCI Clearance";
 
   this.sections = [
     {
@@ -57,7 +57,7 @@ function viewModel() {
       subsections: [
         {
           header: [
-            "Booz Allen Hamilton",
+            "Booz Allen Hamilton (Active TS/SCI)",
             "Machine Learning Operations Engineer",
             "July 2023 - Present"
           ],
