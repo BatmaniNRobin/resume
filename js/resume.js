@@ -167,6 +167,7 @@ function viewModel() {
       subsections: [
         {
           decorators: {
+            icon: "github",
             url: "https://www.mani-malik.xyz/blog"
           }
         },
