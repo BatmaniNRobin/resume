@@ -33,9 +33,15 @@
                         <td>
                             <a data-bind="html: email, attr: {href: 'email:' + email}"></a>
                         </td>
-                        <!-- <td class="text-xs-center" data-bind="html: clearance"></td> -->
+
                         <td class="text-xs-right">
                             <a data-bind="html: website, attr: {href: website}"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-bind="html: clearance"></td>
+                        <td class="text-xs-right">
+                            <a data-bind="html: getIcon('linkedin','black','24px') + linkedin, attr: {href: linkedin}"></a>
                         </td>
                     </tr>
                 </table>
