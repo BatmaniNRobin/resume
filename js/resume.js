@@ -3,11 +3,11 @@ function viewModel() {
   this.lastName = "Malik";
   this.fullName = this.firstName + " " + this.lastName;
 
-  this.phone = "Active TS/SCI Clearance ";
+  this.phone = "703-945-6668";
   this.email = "imalikmu@gmail.com";
   this.github = "github.com/batmaninrobin";
   this.website = "mani-malik.xyz";
-  // this.clearance = "Secret";
+  this.clearance = "Active Top Secret/SCI Clearance";
 
   this.sections = [
     {
@@ -15,40 +15,39 @@ function viewModel() {
       subsections: [
         {
           list: [
-            "Bash",
-            "Python",
-            "Docker",
             "Kubernetes",
             "Helm",
+            "Docker",
+            "Python",
+            "Bash",
+            "Terraform",
+            "Ansible",
+            "LLMs",
+            "RAG",
+            "Artificial Intelligence/AI",
+            "Machine Learning/ML",
+            "Deep Learning/DL",
+            "langchain",
+            "Natural Language Processing/NLP",
+            "C/C++",
+            "Java",
+            
+            
             "CUDA",
             "GCP",
             "Grafana",
             "Prometheus",
             "AWS",
-            "Terraform",
-            "Azure",
-            "Airflow",
-            "Jenkins",
             "MacOS",
             "Linux",
-            "Windows",
             "Zsh",
+            "HTML/CSS",
             "ServiceNow",
             "Jira",
-            "Artificial Intelligence/AI",
-            "Machine Learning/ML",
-            "Deep Learning/DL",
-            "langchain",
-            "NLP",
-            "LLMs",
             // "React",
-            "HTML/CSS",
             // "Angular",
-            "Vercel",
-            // "SQL",
-            // "Java",
+            "SQL",
             // "Android",
-            // "C/C++",
           ]
         }
       ]
@@ -63,19 +62,14 @@ function viewModel() {
             "July 2023 - Present"
           ],
           bullets: [
-            "Engineered secure, DevSecOps-driven sandbox environments to support advanced machine learning operations, enhancing development agility and compliance.",
-            "Developed and implemented scalable network solutions, utilizing AWS Route 53 for seamless routing to EKS clusters and optimizing application accessibility.",
-            "Oversaw deployment and workload management for Kubernetes clusters across various environments, ensuring adherence to complex security and compliance standards.",
-            "Architected design solutions for cloud deployments of AWS infrastructure using Terraform and ansible playbooks",
-            "Implemented and managed CI/CD pipelines using Gitlab, Jenkins, and ArgoCD, automating deployment processes and enhancing operational efficiency.",
-            "Automated deployment workflows and management tasks, simplifying processes and improving operational efficiency.",
-            "Integrated large language models (LLMs) into an ML pipeline tool, enhancing generative question answering and NLP task capabilities and enabling more accurate and context-aware text analysis for various applications.",
-            "Automated MLOps testing portfolio, resulting in a remarkable reduction in testing time from 2 days to just a few hours, improving efficiency and accelerating the software development lifecycle.",
-            "Integrated and deployed Adversarial Robustness Toolbox (ART) functionality seamlessly into machine learning pipelines, enhancing model resilience against adversarial attacks and ensuring more robust AI solutions.",
-            "Prototyped abstracted tasks to configure an ML pipeline tool for retrieving Large Language Models (LLMs) from Amazon S3, leveraging Hugging Face models, and establishing seamless loading and serving capabilities, without need for custom Docker images",
-            "Implemented a prototype using LangChain and Hugging Face models, coupled with Redis as a vector store, to develop an efficient solution for similarity search",
-            "Transitioned prototype applications to production-ready AI/ML deployments, ensuring seamless and efficient inference capabilities",
-            "Enhanced platform's development kit by enabling integrated testing and streamlining the development cycle for increased efficiency",
+            "Sole administrator of the AWS environment for a 10-person team, covering IAM policy and user management, DNS (Route 53), and day-to-day operations.",
+            "Led a 12+ month migration of an ML platform from a legacy environment to a new hardened AWS GovCloud environment, serving hundreds of developers and dozens of applications. Stood up interim dev, stage, and prod Kubernetes clusters with Terraform and Ansible so the AI team could keep building while the primary environment was still being built.",
+            "Ran the GitOps cluster platform across 3 clusters and two compliance tiers using Flux and ArgoCD, including Istio, NGINX and AWS Load Balancer Controller ingress, Kyverno policy enforcement, cert-manager, Vault for secrets, and Prometheus/Loki/Grafana for monitoring and logging.",
+            "Deployed LiteLLM and OpenWebUI as the gateway and interface for AWS Bedrock models and the internal ML platform, and operationalized LLM agents with LangChain and AWS Knowledge Bases (RAG).",
+            "Migrated a production Postfix mail relay from a standalone server to a containerized Kubernetes deployment in 3 days with zero downtime.",
+            "Implemented centralized SSO with Keycloak (OAuth) across OpenWebUI, an internal ML platform, and a proprietary application.",
+            "Maintained continuous vulnerability management for dozens of applications: CI/CD pipelines (GitLab, Jenkins) with SAST/DAST, SonarQube, and image scanning (Trivy, Grype, Anchore), plus ongoing CVE triage and remediation. Automated the MLOps test suite, cutting test time from 2 days to a few hours.",
+            "Integrated the Adversarial Robustness Toolbox into model-build pipelines and built a local development kit for analytic work. Earlier, worked to get LLMs running on the platform using MCP Servers and RAG using tools like LangChain.",
           ]
         },
         {
@@ -171,6 +165,12 @@ function viewModel() {
     {
       header: ["Prominent Projects"],
       subsections: [
+        {
+          header: ["Homelab" | "mani-malik.xyz/blog"],
+          bullets: [
+            "Run a Proxmox virtualization host with each service in its own LXC container, plus a Docker Compose media stack. Fronted by a Caddy reverse proxy with automatic TLS via Cloudflare DNS-01, and reachable only over Tailscale with no public exposure. Blogs on portfolio."
+          ]
+        },
         {
           decorators: {
             icon: "gitlab",
