@@ -5,10 +5,10 @@ function viewModel() {
 
   this.phone = "703-945-6668";
   this.email = "imalikmu@gmail.com";
-  this.github = "github.com/batmaninrobin";
-  this.website = "mani-malik.xyz";
+  this.github = "https://github.com/batmaninrobin";
+  this.website = "https://mani-malik.xyz";
   this.clearance = "Active TS/SCI";
-  this.linkedin = "linkedin.com/in/mani-malik";
+  this.linkedin = "https://linkedin.com/in/mani-malik";
 
   this.sections = [
     {
