@@ -167,12 +167,9 @@ function viewModel() {
       subsections: [
         {
           decorators: {
-            icon: "github",
             url: "https://www.mani-malik.xyz/blog"
-          }
-        },
-        {
-          header: ["Homelab", "mani-malik.xyz/blog"],
+          },
+          header: ["Homelab | mani-malik.xyz/blog"],
           bullets: [
             "Run a Proxmox virtualization host with each service in its own LXC container, plus a Docker Compose media stack. Fronted by a Caddy reverse proxy with automatic TLS via Cloudflare DNS-01, and reachable only over Tailscale with no public exposure. Blogs on portfolio."
           ]
